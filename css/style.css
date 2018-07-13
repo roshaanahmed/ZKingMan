@@ -1,0 +1,463 @@
+body{
+	background-color: #252527;
+}
+.container{
+	max-width: 1360px;
+	margin: 0 auto;
+}
+nav ul{
+	text-align: right;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 22px;
+}
+nav ul li a{
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 15px;
+	height: 0 45px;
+	line-height: 45px;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	background-color: #f44336;
+}
+.back-w{
+	background-color: white;
+	padding: 2%;
+}
+.logo input{
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	font-family: arial;
+	color: #aba9a9;
+	padding-left: 15px;
+	box-sizing: border-box;
+	background-image: url('../img/button-search.png');
+	background-position: 96% center;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+	border: none;
+	border: 1px solid #444444;
+}
+.logo img{
+	float: left;
+}
+.logo input{
+	float: right;
+}
+.images ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.images ul li{
+	width: 25%;
+}
+.images ul li img{
+	width: 100%;
+	height: 100%;
+}
+.service h1{
+	font-family: arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333333;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 30px;
+}
+.service p{
+	font-family: arial;
+	color: #b0b0b0;
+	margin-top: 11px;
+	text-align: center;
+}
+.one-four{
+	width: 22%;
+	float: left;
+	margin-right: 4%;
+}
+.one-four:last-child{
+	margin: 0;
+}
+.learn{
+	margin-top: 30px;
+}
+.learn img{
+	width: 100%;
+}
+.learn h1{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #333333;
+	text-align: center;
+	margin-top: 20px;
+}
+.learn p{
+	font-family: arial;
+	color: #7b7b7b;
+	text-align: center;
+	margin-top: 15px;
+}
+.learn h2{
+	font-family: arial;
+	color: #ffffff;
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #f44336;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.blog-1 h1{
+	font-family: arial;
+	font-size: 30px;
+	color: #333333;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 130px;
+}
+.blog-1 h2{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: #222222;
+	margin-top: 30px;		
+}
+.blog-1 p{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #222222;
+	margin-top: 15px;
+}
+.blog-1 span{
+	color: #be0a0a;	
+}
+.blog-1{
+	width: 70%;
+	border-bottom: 1px solid #dddddd;
+}
+.blog-2{
+	width: 30%;
+	margin-top: 150px;
+	background-color: #fafafa;
+	padding-left: 30px;
+}
+.blog{
+	display: flex;
+}
+.blog-2 h1{
+	font-family: arial;
+	font-weight: bold;
+	color: #333333;
+	padding-top: 30px;
+	text-transform: uppercase;
+	margin-bottom: 42px;
+}
+.blog-2 p{
+	font-family: arial;
+	line-height: 20px;
+	margin-bottom: 30px;
+	color: #4c4c4c;
+}
+.blog-1 h3{
+	font-family: arial;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	margin-top: 36px;
+}
+.blog-1 h4{
+	font-family: arial;
+	color: #ffffff;
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #f44336;
+	border-radius: 20px;
+	font-size: 14px;
+	margin-top: 35px;
+	text-align: center;
+}
+.blog-1.change{
+	border: none;
+}
+
+.blog-2.change{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 30%;
+}
+.blog.change{
+	margin-bottom: 100px;
+}
+footer h1{
+	font-family: arial;
+	font-size: 14px;
+	color: #ffffff;
+	margin-left: 15px;
+}
+footer ul li{
+	background-color: red;
+	display: inline-block;
+	width: 40px;
+	line-height: 40px;
+	height: 40px;
+	color: #ffffff;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+footer ul{
+	text-align: center;
+}
+.pg p{
+	font-family: arial;
+	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+	width: 193px;
+	margin: 0 auto;
+}
+.one-third{
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+.one-third:last-child{
+	margin: 0;
+}
+footer{
+	padding-top: 40px;
+}
+img{
+	max-width: 100%;
+}
+.icon{
+	display: none;
+}
+@media only screen and (max-width: 768px){
+	.one-four,.one-third{
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.pg{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.blog-1{
+		width: 100%;
+		text-align: center;
+	}
+	.blog-2{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	.blog{
+		display: block;
+	}
+	.blog-1 h4{
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.blog-1 h3{
+		margin-bottom: 30px;
+	}
+	.blog-2.change{
+		width: 100%;
+	}
+	.images ul li{
+		width: 50%;
+	}
+	.icon{
+		display: block;
+		color:#333333;
+		font-size: 50px;
+		position: absolute;
+		top: 30px;	
+		right: 20px;
+	}
+	.logo img{
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+	nav ul{
+		z-index: 10;
+		display: none;
+		width: 50%;
+		position: absolute;
+		top: 30px;
+		right: 30px;
+		background-color: #0ff;
+		border-radius: 20px 0;
+		box-shadow: 0 0 30px yellow;
+	}
+	.logo input{
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	nav ul li{
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+	nav:hover ul{
+		display: block;
+	}
+}
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------Carousel---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.owl-controls .owl-buttons div {
+	position: absolute;
+	color:#777;
+	opacity: 0.7;
+}
+.owl-carousel:hover .owl-buttons div {
+	color:#fff;
+}
+.owl-controls .owl-buttons .owl-prev {
+	left: 10px;
+	top: 50%;
+}
+.owl-controls .owl-buttons .owl-next {
+	right: 10px;
+	top: 50%;
+}
+.owl-carousel{
+	margin-bottom: 20px;
+}
+.owl-carousel .owl-buttons div i {
+	font-size: 40px;
+	margin: -20px 0 0;
+}
+.owl-wrapper .item img{
+        width: 100%;
+    }
+#myImg,#myImg2,#myImg3,#myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover,#myImg2:hover,#myImg3:hover,#myImg4:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption,#caption2,#caption3,#caption4{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption,#caption2,#caption3,#caption4 {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close ,.close2,.close3,.close4{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus,
+.close2:hover,
+.close2:focus,
+.close3:hover,
+.close3:focus,
+.close4:hover,
+.close4:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+.hallway h1{
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	height: 0;
+	width: 0;
+	bottom: 0;
+	font-family: arial;
+	font-size: 20px;
+	color: #ffffff;
+	background-color:rgba(0,0,0,0.6);
+	text-align: center;
+	transition: 2s ease all;
+}
+.hallway{
+	position: relative;
+}
+.hallway:hover h1{
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+}
